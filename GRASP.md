@@ -24,4 +24,17 @@ The fifth pattern is "High Cohesion." This pattern helps us design objects that 
 #### Polymorphism
 Polymorphism is a principle that suggests that objects of different classes should be able to respond to the same message in different ways. This allows for greater flexibility and adaptability in the system.It helps us design objects that can take on multiple forms or behaviors. The authors recommend that we use polymorphism to create flexible and extensible systems.
 
+#### Pure Fabrication
+The Pure Fabrication pattern is used to assign responsibilities to classes that do not represent real-world concepts. These classes are used to perform tasks that do not fit naturally into any other class. This helps to maintain a high level of cohesion and reduces the complexity of the system, create objects that don't have a natural place in the system but are necessary for some functionality. The authors recommend that we create these objects as separate, non-domain-specific classes.
+
+#### Indirection
+The Indirection pattern is used to introduce an intermediary between two objects. This intermediary can be used to decouple the two objects, provide an additional layer of abstraction, or to provide a way to modify the interaction between the two objects without modifying either object directly.This pattern helps us design objects that can act as intermediaries between other objects. The authors recommend that we use indirection to reduce dependencies and increase flexibility.
+
+#### Protected Variations
+The Protected Variations pattern is used to protect a system from the impact of changes in external systems or technologies.It helps us design objects that can handle changes in the system without affecting other objects. The authors recommend that we encapsulate the parts of the system that are likely to change behind interfaces or abstract classes.
+
+
+#### Conclusion
+In conclusion, GRASP patterns provide a set of heuristics that can guide developers in making good design decisions when designing object-oriented systems. By assigning responsibilities to objects in a clear and well-structured way, we can create systems that are easy to maintain, flexible, and extensible.
+
 
