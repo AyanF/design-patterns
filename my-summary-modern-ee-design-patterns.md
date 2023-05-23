@@ -20,7 +20,7 @@ The chapter also discusses the challenges faced by Java EE in the face of emergi
 
 The chapter concludes by highlighting the importance of keeping up with the latest technologies and adapting to new paradigms in enterprise development. While Java EE has been a dominant force in enterprise development for many years, it is important for developers to be open to new approaches and technologies that can help them build scalable and sustainable applications.
 
-In summary, Chapter 2 of "Lean Enterprise" provides a brief history of Java EE and its impact on enterprise development. The chapter highlights the challenges faced by traditional enterprise settings and the evolution of Java EE to address these challenges. It also discusses the emergence of new technologies such as microservices and the need for developers to adapt to new paradigms in order to build scalable and sustainable applications.
+In summary, Chapter 2 of provides a brief history of Java EE and its impact on enterprise development. The chapter highlights the challenges faced by traditional enterprise settings and the evolution of Java EE to address these challenges. It also discusses the emergence of new technologies such as microservices and the need for developers to adapt to new paradigms in order to build scalable and sustainable applications.
 
 ## Chapter 3: Designing Software for a Scalable Enterprise
 
