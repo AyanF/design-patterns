@@ -73,4 +73,17 @@ Type 3 becomes Constructor Dependency Injection
 
 Type 4 was Field Injection or getter injection depending on who you spoke to.
 
+## Implementation in Moqui 
+
+Apache Moqui follows the Inversion of Control (IoC) design pattern to achieve loose coupling, modularization, and maintainability in its architecture.
+Here are a few ways in which the IoC design pattern is present in Apache Moqui:
+
+1.  **Service Facade:** Moqui's central service facade is a key component that embodies IoC principles. Services in Moqui are standalone units of functionality that can be invoked by different parts of the application. When you invoke a service, the control of execution is passed to the service facade, which handles the execution of the requested service. This approach helps in achieving loose coupling between different parts of the application.
+    
+2.  **Entity Facade:** Similar to services, Moqui's Entity Facade abstracts the data access layer, allowing you to interact with the underlying data store without tightly coupling your application code to the database operations. The Entity Facade follows IoC principles by handling the data access and allowing you to focus on the business logic.
+    
+3.  **Screen Flow:** Moqui's screen flow capabilities, implemented using the Screen Widget System, allow you to define complex user interactions and logic flows. These flows can be orchestrated to follow IoC principles, where the framework manages the flow based on user interactions and events.
+    
+
+While Apache Moqui doesn't implement IoC in the same manner as some dedicated IoC frameworks, its design choices and architectural principles promote the separation of concerns, modularization, and flexibility that are core to the Inversion of Control design pattern. This approach helps in creating maintainable and adaptable business applications.
 
