@@ -15,4 +15,10 @@ In the traditional approach, components are tightly coupled together, which can 
     
 In contrast, the Inversion of Control design pattern addresses these issues by promoting loose coupling between components. This is achieved by introducing an intermediary entity (often referred to as a container or framework) responsible for managing the dependencies between components.
 
+### Key Concepts
 
+1.  Dependency Injection (DI): DI is a common technique used in IoC to provide the required dependencies to a component from the outside. Instead of the component creating its dependencies, they are "injected" into the component by the framework or container.
+    
+2.  Service Locator: In some IoC implementations, a service locator pattern is used, where components request their dependencies from a centralized service locator. The service locator manages the actual instances of the dependencies and provides them when requested.
+    
+3.  Event Handling: IoC can also be implemented using events, where components publish events and subscribe to events. The framework handles the event publishing and distribution to relevant subscribers.
