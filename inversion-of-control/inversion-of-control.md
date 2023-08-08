@@ -57,3 +57,20 @@ The added advantage is that CDI Components cannot be instantiated with missing d
 
 [ATG Dynamo](http://www.atg.com/en/company/dynamo.jhtml)  was a commercial product that was successful in the market place in the late 90’s. It also used constructors for dependency resolution. Dynamo’s commercial success yielded a little when Apache made Struts, but it should not be forgotten that Dynamo casually used constructors for dependencies in web-applications first.
 
+### Types 1, 2&3 renamed
+
+In 2003, Paul was referring to the Avalon style of IoC as “type 1”, setter as “type 2” and constructor as “type 3”. He went as far as publishing an article (**Inversion Of Control Rocks**) on it in Java Developer Journal.
+
+_December 2003_  ; Rod Johnson of the Spring Framework team, Paul Hammant (former Avaloner, and co-lead of PicoContainer), Mike Royle, with Martin Fowler say down and played with some of the language of Martin’s forthcoming article. Martin had drafted this article entirely independently of this team but had be kind enough to show a draft to them. The problem the team had was with the naming of the patterns related to Inversion of Control, and the examples of use that Martin had shown. Rod had been using the injection phrase before so it was felt that the component resolving style being “Dependency Injection” would be a good thing.
+
+Thus when Dependency Injection rightly took over:
+
+Type 1 becomes Contextualized Dependency Lookup
+
+Type 2 becomes Setter Dependency Injection
+
+Type 3 becomes Constructor Dependency Injection
+
+Type 4 was Field Injection or getter injection depending on who you spoke to.
+
+
