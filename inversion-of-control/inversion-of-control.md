@@ -87,3 +87,13 @@ Here are a few ways in which the IoC design pattern is present in Apache Moqui:
 
 While Apache Moqui doesn't implement IoC in the same manner as some dedicated IoC frameworks, its design choices and architectural principles promote the separation of concerns, modularization, and flexibility that are core to the Inversion of Control design pattern. This approach helps in creating maintainable and adaptable business applications.
 
+### Appendix
+- _**Shutdown of Avalon**_
+The Avalon effort was intended to produce an Inversion of Control (IoC) framework for container programming, with the container controlling components that pass lifecycle and dependency functions between each other. Initially focused on Java, the project eventually added C# as a target platform, according to Aaron Farr, who was chairman of the Apache Avalon project committee and now is on the Apache Excalibur project management committee. Excalibur has emerged as one offshoot of Avalon.
+Avalon was formally dissolved in November after parallel development projects had emerged within it, Farr said. "Basically, there had been disagreements about the direction the project should take," he said.
+"We eventually decided rather than waste resources on infighting, there was more than enough space for the projects to exist within their own project spaces," Farr said.
+
+- [**Inversion Of Control Rocks**](https://paulhammant.com/files/JDJ_2003_12_IoC_Rocks-final.pdf)
+- **https://paulhammant.com/blog/000128.html**
+- [**Understanding Inversion Of Control**](https://medium.com/@amitkma/understanding-inversion-of-control-ioc-principle-163b1dc97454)
+
