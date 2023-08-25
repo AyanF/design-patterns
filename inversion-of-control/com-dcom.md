@@ -73,6 +73,5 @@ Both COM and CORBA share certain features:
 - Optional support for Reflection.
 - Support for asynchronous processing is weak or absent, although recent versions of the CORBA specification provide rich asynchronous invocation mechanisms.
 
-**It can be seen that CORBA architecture has certain problems associated with it that are solved using COM. The language, platform independent and suitability for all the distributed systems led to a lot of complexity. Language mapping is considered as “Unnatural” and there is no inheritance for
-exceptions. **
+**It can be seen that CORBA architecture has certain problems associated with it that are solved using COM. The language, platform independent and suitability for all the distributed systems led to a lot of complexity. Language mapping is considered as “Unnatural” and there is no inheritance for exceptions**
 
