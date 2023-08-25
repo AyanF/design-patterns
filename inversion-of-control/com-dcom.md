@@ -47,4 +47,29 @@ In 1994, **OLE Custom Controls (OCX)** succeeded VBX controls. Simultaneously, M
 
 Microsoft Office extensively employed ActiveX. In the same year, **COM was extended to network scenarios with DCOM**.
 
+### Strengths of CORBA and COM
+
+**CORBA** offers the following strengths:
+
+- Strong support for Unix and mainframe systems.
+- Cross-platform and multi-vendor architecture adhering to Industrial Standards.
+- Excellent versions of implementation available in the market.
+- Wide compatibility with a variety of programming languages.
+- **Simpler Programming Interface**: CORBA architecture features an intuitive programming interface. Objects and interfaces can be dynamically invoked at runtime using the **CORBA DII** (Dynamic Invocation Interface).
+- **Dynamic Invocation Interface (DII)**: An API enabling dynamic construction of CORBA object invocations. Particularly valuable when a client lacks prior knowledge about the object to invoke. This process involves marshalling argument lists, naming functions, and sending service requests to object servers. Often operates in asynchronous mode.
+- **Multiple Inheritance of Interfaces**: CORBA supports multiple inheritance of interfaces. The Interface Definition Language (IDL) is designed to accommodate multiple inheritance of interfaces.
+
+**COM** boasts the following strengths:
+
+- Strong versioning support for interfaces, allowing easy compatibility with upward or backward compatible interfaces.
+- Good support for fine-grained objects, featuring in-process activation and no mandatory persistence support.
+- **Class-Interface Separation**: Each object/class/instance can support multiple interfaces, and switching between them is effortless.
+- Backed by Microsoft with ample resources and widely used tools on Windows platforms.
+- Flexible pointers: COM pointers can point into the middle of structures, and it has a robust definition of object identity.
+- Offers better Separation of Concerns, enabling local usage without incurring distribution or ORB overhead.
+
+Both COM and CORBA share certain features:
+
+- Optional support for Reflection.
+- Support for asynchronous processing is weak or absent, although recent versions of the CORBA specification provide rich asynchronous invocation mechanisms.
 
